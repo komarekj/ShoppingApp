@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Shopping App",
+    "slug": "ShoppingApp",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ff8a00"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "hooks": {
+      "postPublish": [{
+        "file": "sentry-expo/upload-sourcemaps",
+        "config": {
+          "organization": "pixelter",
+          "project": "shoppingapp",
+          "authToken": "fa361f3fcd51412eb3464aa2d1b8cf05435ee052e1844c4a95431d26bbde9172"
+        }
+      }]
+    }
+  }
+}
