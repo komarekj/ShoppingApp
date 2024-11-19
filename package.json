@@ -43,7 +43,7 @@
     "decimal.js": "^10.2.0",
     "expo": "^37.0.7",
     "expo-constants": "^9.1.1",
-    "firebase": "^7.10.0",
+    "firebase": "^10.9.0",
     "i18next": "^19.6.3",
     "intl": "^1.2.5",
     "lodash": "^4.17.15",
